@@ -1,0 +1,250 @@
+{
+    "name": "Bootcamp",
+    "unique_identifier": "bootcamp",
+    "version": "1.0",
+    "about": "You can have a live video session, publish modules and classes and schedule with this addon.",
+    "directories": [],
+    "sql_file": "updater.php",
+    "files": [
+        {
+            "root_directory": "uploads/addons/bootcamp/assets/frontend/default-new/css/bootcamp_style.css",
+            "update_directory": "assets/frontend/default-new/css/bootcamp_style.css"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/assets/backend/css/bootcamp.css",
+            "update_directory": "assets/backend/css/bootcamp.css"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/controllers/addons/Bootcamp.php",
+            "update_directory": "application/controllers/addons/Bootcamp.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/models/addons/Bootcamp_model.php",
+            "update_directory": "application/models/addons/Bootcamp_model.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/basic_tab.php",
+            "update_directory": "application/views/backend/admin/basic_tab.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/basic_tab_edit.php",
+            "update_directory": "application/views/backend/admin/basic_tab_edit.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/bootcamp_form.php",
+            "update_directory": "application/views/backend/admin/bootcamp_form.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/category.php",
+            "update_directory": "application/views/backend/admin/category.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/category_form.php",
+            "update_directory": "application/views/backend/admin/category_form.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/class_resource.php",
+            "update_directory": "application/views/backend/admin/class_resource.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/curriculum_tab.php",
+            "update_directory": "application/views/backend/admin/curriculum_tab.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/finish_tab.php",
+            "update_directory": "application/views/backend/admin/finish_tab.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/info_tab.php",
+            "update_directory": "application/views/backend/admin/info_tab.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/info_tab_edit.php",
+            "update_directory": "application/views/backend/admin/info_tab_edit.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/bootcamp_list.php",
+            "update_directory": "application/views/backend/admin/bootcamp_list.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/bootcamp_live_class_form.php",
+            "update_directory": "application/views/backend/admin/bootcamp_live_class_form.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/bootcamp_live_class_sort.php",
+            "update_directory": "application/views/backend/admin/bootcamp_live_class_sort.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/media_tab.php",
+            "update_directory": "application/views/backend/admin/media_tab.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/media_tab_edit.php",
+            "update_directory": "application/views/backend/admin/media_tab_edit.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/module_form.php",
+            "update_directory": "application/views/backend/admin/module_form.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/module_sort.php",
+            "update_directory": "application/views/backend/admin/module_sort.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/payment_invoice.php",
+            "update_directory": "application/views/backend/admin/payment_invoice.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/payment_report.php",
+            "update_directory": "application/views/backend/admin/payment_report.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/pricing_tab.php",
+            "update_directory": "application/views/backend/admin/pricing_tab.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/pricing_tab_edit.php",
+            "update_directory": "application/views/backend/admin/pricing_tab_edit.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/seo_tab.php",
+            "update_directory": "application/views/backend/admin/seo_tab.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/seo_tab_edit.php",
+            "update_directory": "application/views/backend/admin/seo_tab_edit.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/admin/tab_menu.php",
+            "update_directory": "application/views/backend/admin/tab_menu.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/basic_tab.php",
+            "update_directory": "application/views/backend/user/basic_tab.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/basic_tab_edit.php",
+            "update_directory": "application/views/backend/user/basic_tab_edit.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/bootcamp_form.php",
+            "update_directory": "application/views/backend/user/bootcamp_form.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/class_resource.php",
+            "update_directory": "application/views/backend/user/class_resource.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/curriculum_tab.php",
+            "update_directory": "application/views/backend/user/curriculum_tab.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/finish_tab.php",
+            "update_directory": "application/views/backend/user/finish_tab.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/info_tab.php",
+            "update_directory": "application/views/backend/user/info_tab.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/info_tab_edit.php",
+            "update_directory": "application/views/backend/user/info_tab_edit.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/bootcamp_list.php",
+            "update_directory": "application/views/backend/user/bootcamp_list.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/bootcamp_live_class_form.php",
+            "update_directory": "application/views/backend/user/bootcamp_live_class_form.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/bootcamp_live_class_sort.php",
+            "update_directory": "application/views/backend/user/bootcamp_live_class_sort.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/media_tab.php",
+            "update_directory": "application/views/backend/user/media_tab.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/media_tab_edit.php",
+            "update_directory": "application/views/backend/user/media_tab_edit.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/module_form.php",
+            "update_directory": "application/views/backend/user/module_form.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/module_sort.php",
+            "update_directory": "application/views/backend/user/module_sort.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/payment_invoice.php",
+            "update_directory": "application/views/backend/user/payment_invoice.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/payment_report.php",
+            "update_directory": "application/views/backend/user/payment_report.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/pricing_tab.php",
+            "update_directory": "application/views/backend/user/pricing_tab.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/pricing_tab_edit.php",
+            "update_directory": "application/views/backend/user/pricing_tab_edit.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/seo_tab.php",
+            "update_directory": "application/views/backend/user/seo_tab.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/seo_tab_edit.php",
+            "update_directory": "application/views/backend/user/seo_tab_edit.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/backend/user/tab_menu.php",
+            "update_directory": "application/views/backend/user/tab_menu.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/frontend/default-new/bootcamp_curriculum.php",
+            "update_directory": "application/views/frontend/default-new/bootcamp_curriculum.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/frontend/default-new/bootcamp_details.php",
+            "update_directory": "application/views/frontend/default-new/bootcamp_details.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/frontend/default-new/bootcamp_list.php",
+            "update_directory": "application/views/frontend/default-new/bootcamp_list.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/frontend/default-new/bootcamp_online_class.php",
+            "update_directory": "application/views/frontend/default-new/bootcamp_online_class.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/frontend/default-new/bootcamp_overview.php",
+            "update_directory": "application/views/frontend/default-new/bootcamp_overview.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/frontend/default-new/bootcamp_owner.php",
+            "update_directory": "application/views/frontend/default-new/bootcamp_owner.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/frontend/default-new/bootcamp_side_menu.php",
+            "update_directory": "application/views/frontend/default-new/bootcamp_side_menu.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/frontend/default-new/my_bootcamp.php",
+            "update_directory": "application/views/frontend/default-new/my_bootcamp.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/frontend/default-new/my_bootcamp_details.php",
+            "update_directory": "application/views/frontend/default-new/my_bootcamp_details.php"
+        },
+        {
+            "root_directory": "uploads/addons/bootcamp/views/frontend/default-new/watch_bootcamp_cls_rec.php",
+            "update_directory": "application/views/frontend/default-new/watch_bootcamp_cls_rec.php"
+        }
+    ]
+}
